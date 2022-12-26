@@ -1,0 +1,26 @@
+.actionButton{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+    transition : transform 50ms;
+
+  }
+  
+  .actionButton:hover {
+    background-color: #fc66e8
+}
+  
+  .actionButton:active {
+    background-color: #ff3de5;
+    box-shadow: 0 1px #666;
+    transform: translateY(3px);
+  }

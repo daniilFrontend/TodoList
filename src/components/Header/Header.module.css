@@ -1,0 +1,13 @@
+
+.pContainer:first-child:hover{
+    background-color: rgba(0, 206, 206, 0.705);
+
+}
+.pContainer:first-child:active{
+    background-color: hsla(180, 100%, 54%, 0.356);
+    transition: transform 1s;
+}
+
+.nothing{
+    background-color: hwb(125 10% 0% / 0.623);
+}

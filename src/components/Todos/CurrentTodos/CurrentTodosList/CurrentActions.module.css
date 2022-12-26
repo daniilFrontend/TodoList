@@ -1,0 +1,9 @@
+.buttonContainer{
+    display: flex;
+    margin-top: 1rem;
+    gap: 5px;
+}
+.editButtonContainer{
+    display: flex;
+    flex-direction: column;
+}

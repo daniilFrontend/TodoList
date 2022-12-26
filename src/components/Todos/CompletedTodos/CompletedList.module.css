@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  min-width: 300px;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0 3px 0;
+  border-radius: 10px;
+}
+.todoName {
+  font-size: 22px;
+}
+.todoText{
+  width: 250px;
+  border: none;
+  resize: none;
+}
+.valueContainer {
+  width: 30%;
+  padding-left: 10px;
+}
+.backToWork {
+  height: 30px;
+  width: 10px;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  border: none;
+  background-image: url("../../../assets/вернуть.png");
+  background-size: cover;
+  transition: transform 1s background-color 500ms;
+}
+
+.backButton:active {
+  transform: translateY(5px);
+}

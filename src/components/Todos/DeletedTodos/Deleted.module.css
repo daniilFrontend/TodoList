@@ -1,0 +1,21 @@
+.backButton{
+        height: 30px;
+        width: 10px;
+        padding-left: 30px;
+        padding-top: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        border: none;
+       background-image: url("../../../assets/вернуть.png");
+       background-size: cover;
+       transition: transform 1s background-color 500ms;
+      }
+ .backButton:active{
+        transform: translateY(5px) ;
+}    
+.todoName{
+        font-size: 22px;
+}
+.todoText{
+        font-size: 16px;
+}

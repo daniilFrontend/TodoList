@@ -1,0 +1,16 @@
+.headerButton {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: aquamarine;  
+  font-size: 18px;
+
+}
+
+.headerButton :first-child{
+  padding-left: 3px;
+  padding-right: 3px;
+}
